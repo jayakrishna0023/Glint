@@ -205,42 +205,40 @@ export function LandingPage({ onStartFree, onViewSample, onSelectWorkspace }: La
             Create, bulk-issue, and instantly audit secure professional certificates at industrial scale. Supported by permanent cryptographic seals, custom branding overrides, and public-facing high-fidelity verification boards.
           </p>
 
-          {/* Quick Direct Ledger Search */}
-          <form onSubmit={handleSearch} className="bg-white p-2 rounded-2xl border border-[#E9ECEF] flex items-center shadow-md focus-within:ring-2 focus-within:ring-indigo-500/20 transition-all max-w-md relative z-25">
-            <Search className="text-slate-400 w-4 h-4 ml-2 mr-3 shrink-0" />
-            <input 
-              type="text" 
-              placeholder="Verify code (e.g., CERT-2026-1014)" 
-              value={searchId}
-              onChange={(e) => setSearchId(e.target.value)}
-              className="w-full bg-transparent border-none text-xs focus:outline-none placeholder-slate-400 text-slate-800"
-            />
-            <button 
-              type="submit"
-              disabled={isVerifying}
-              className="bg-indigo-600 text-white text-xs px-5 py-2.5 rounded-xl font-medium hover:bg-indigo-700 transition-all shadow-sm shrink-0 flex items-center gap-1.5"
-            >
-              {isVerifying ? (
-                <span className="w-3.5 h-3.5 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
-              ) : 'Verify Ledger'}
-            </button>
-          </form>
-
-          {/* Trust Actions & Quick Sandbox Seeds */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-2">
+          {/* Professional Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <button 
               onClick={onStartFree}
-              className="bg-slate-950 text-white text-xs px-6 py-3.5 rounded-full font-medium shadow-md hover:bg-slate-800 transition-all flex items-center justify-center gap-2 hover:shadow-lg"
+              className="relative group overflow-hidden bg-slate-950 text-white text-xs px-8 py-4 rounded-xl font-bold shadow-lg hover:shadow-slate-950/20 transition-all flex items-center justify-center gap-2"
             >
-              Open Vendor Workspace
+              <span className="relative z-10 flex items-center gap-1.5">
+                Launch Console <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </span>
+              <div className="absolute inset-0 bg-indigo-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300" />
             </button>
             <button 
               onClick={() => onViewSample('CERT-2026-1014')}
-              className="border border-[#E9ECEF] bg-white text-xs px-6 py-3.5 rounded-full font-medium text-slate-700 hover:bg-slate-50 transition-all flex items-center justify-center gap-2 shadow-sm"
+              className="group border border-[#E9ECEF] bg-white text-xs px-8 py-4 rounded-xl font-bold text-slate-700 hover:text-indigo-600 hover:bg-indigo-50/20 hover:border-indigo-200 transition-all flex items-center justify-center gap-2 shadow-sm"
             >
-              <Award className="w-4 h-4 text-amber-500" />
-              View Verified Sample Credential
+              <Award className="w-4 h-4 text-amber-500 group-hover:scale-110 transition-transform" />
+              Verify Sample Credential
             </button>
+          </div>
+
+          {/* Live Platform Audits Status Indicators */}
+          <div className="flex flex-wrap gap-x-6 gap-y-2 text-[10px] font-mono text-slate-400">
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+              Platform Status: Active
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
+              Signature Engine: Live
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
+              Neon Sync: Connected
+            </span>
           </div>
 
           {/* Real Customer Trust Logos */}
@@ -257,29 +255,6 @@ export function LandingPage({ onStartFree, onViewSample, onSelectWorkspace }: La
 
         {/* Hero Interactive Certificate Preview Card */}
         <div id="preview" className="lg:col-span-6 flex flex-col items-center relative perspective-1000">
-          
-          {/* Parallax Floating elements behind the preview card */}
-          <div 
-            style={{ transform: `translateY(${scrollY * -0.15}px)` }}
-            className="absolute -top-6 -left-6 bg-white border border-[#E9ECEF] rounded-xl p-3.5 shadow-lg flex items-center gap-2.5 animate-float z-20 pointer-events-none"
-          >
-            <div className="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600">
-              <ShieldCheck className="w-5 h-5" />
-            </div>
-            <div>
-              <p className="text-[10px] font-bold text-slate-900">Cryptographically Sealed</p>
-              <p className="text-[8px] text-slate-400">Verifiable Audit Protocol</p>
-            </div>
-          </div>
-
-          <div 
-            style={{ transform: `translateY(${scrollY * 0.1}px)` }}
-            className="absolute -bottom-6 -right-6 bg-white border border-[#E9ECEF] rounded-xl p-3 shadow-lg flex items-center gap-2 animate-float-delayed z-20 pointer-events-none"
-          >
-            <Database className="w-4 h-4 text-indigo-600" />
-            <span className="text-[9px] font-bold text-slate-800">Neon Ledger Connected</span>
-          </div>
-
           <div 
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
