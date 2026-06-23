@@ -1,7 +1,6 @@
 # Glint — Certificate Issuance & Verification Platform
 
 <div align="center">
-  <img width="1200" height="475" alt="Glint Certificate Platform Banner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
   <p><em>Secure, AI-powered digital certificate designer, bulk-issuer, and verification portal.</em></p>
 </div>
 

@@ -1,0 +1,6 @@
+{
+  "name": "Certificate Issuance & Verification Platform",
+  "description": "Premium, enterprise-grade credential infrastructure for custom certificate creation, bulk recipient issuance, and permanent secure public verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,4802 @@
+{
+  "emailLogs": [],
+  "workspaces": [
+    {
+      "id": "ws-google-infra",
+      "name": "Google Cloud Training",
+      "slug": "google-cloud-infra",
+      "createdTime": "2026-02-10T12:00:00Z",
+      "plan": "enterprise",
+      "branding": {
+        "brandName": "Google Cloud Credentials",
+        "primaryColor": "#1a73e8",
+        "accentColor": "#34a853",
+        "senderName": "Google Cloud Credentials Team",
+        "senderEmail": "credentials@google-cloud-programs.org",
+        "customDomain": "credentials.googlecloudprograms.com",
+        "whiteLabel": true,
+        "footerText": "Google Cloud Authorized Certification Authority. Secured by Peer Audit Protocol."
+      }
+    },
+    {
+      "id": "ws-stellar",
+      "name": "Stellar Tech Academy",
+      "slug": "stellar-tech",
+      "createdTime": "2026-03-15T09:30:00Z",
+      "plan": "pro",
+      "branding": {
+        "brandName": "Stellar Academy",
+        "primaryColor": "#0F172A",
+        "accentColor": "#ec4899",
+        "senderName": "Stellar Admissions Office",
+        "senderEmail": "admissions@stellarworkshops.io",
+        "whiteLabel": false,
+        "footerText": "Stellar Education & Training Group. Certified globally."
+      }
+    },
+    {
+      "id": "ws-e20cwn8",
+      "name": "touchmark",
+      "slug": "touchmark",
+      "createdTime": "2026-06-18T12:19:12.915Z",
+      "plan": "free",
+      "branding": {
+        "brandName": "course certificates",
+        "primaryColor": "#1a73e8",
+        "accentColor": "#c4215a",
+        "senderName": "course certificates",
+        "senderEmail": "issuance@certops-mail.com",
+        "whiteLabel": false,
+        "footerText": "Secured credential system by course certificates"
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "temp-google-classic",
+      "workspaceId": "ws-google-infra",
+      "name": "Google Official Enterprise Template",
+      "layout": "landscape",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#1a73e8",
+      "borderWidth": 6,
+      "showSeal": true,
+      "sealType": "classic",
+      "showQrCode": true,
+      "qrCodeX": 10,
+      "qrCodeY": 85,
+      "logoX": 50,
+      "logoY": 12,
+      "logoWidth": 160,
+      "signatureX": 50,
+      "signatureY": 78,
+      "signatureWidth": 120,
+      "signatoryName": "Thomas Kurian",
+      "signatoryTitle": "CEO, Google Cloud",
+      "textElements": [
+        {
+          "id": "t1",
+          "text": "CERTIFICATE OF ACHIEVEMENT",
+          "fontSize": 24,
+          "fontFamily": "Space Grotesk",
+          "fontWeight": "bold",
+          "color": "#1B365D",
+          "xPercent": 50,
+          "yPercent": 24,
+          "align": "center"
+        },
+        {
+          "id": "t2",
+          "text": "This credential acknowledges that the recipient has satisfied all official criteria.",
+          "fontSize": 11,
+          "fontFamily": "Inter",
+          "fontWeight": "normal",
+          "color": "#64748B",
+          "xPercent": 50,
+          "yPercent": 30,
+          "align": "center"
+        },
+        {
+          "id": "t3",
+          "text": "THIS PROUDLY CONFIRMS THAT",
+          "fontSize": 10,
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": "medium",
+          "color": "#1a73e8",
+          "xPercent": 50,
+          "yPercent": 38,
+          "align": "center"
+        },
+        {
+          "id": "t4",
+          "text": "{{name}}",
+          "fontSize": 34,
+          "fontFamily": "Playfair Display",
+          "fontWeight": "bold",
+          "color": "#0F172A",
+          "xPercent": 50,
+          "yPercent": 48,
+          "align": "center",
+          "isPlaceholder": true
+        },
+        {
+          "id": "t5",
+          "text": "has successfully completed the premium specialized program",
+          "fontSize": 11,
+          "fontFamily": "Inter",
+          "fontWeight": "normal",
+          "color": "#64748B",
+          "xPercent": 50,
+          "yPercent": 55,
+          "align": "center"
+        },
+        {
+          "id": "t6",
+          "text": "{{program}}",
+          "fontSize": 20,
+          "fontFamily": "Space Grotesk",
+          "fontWeight": "bold",
+          "color": "#1a73e8",
+          "xPercent": 50,
+          "yPercent": 62,
+          "align": "center",
+          "isPlaceholder": true
+        },
+        {
+          "id": "t7",
+          "text": "ISSUED ON: {{date}}",
+          "fontSize": 10,
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": "normal",
+          "color": "#64748B",
+          "xPercent": 20,
+          "yPercent": 88,
+          "align": "left"
+        },
+        {
+          "id": "t8",
+          "text": "VERIFICATION ID: {{id}}",
+          "fontSize": 10,
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": "normal",
+          "color": "#64748B",
+          "xPercent": 80,
+          "yPercent": 88,
+          "align": "right"
+        }
+      ]
+    },
+    {
+      "id": "temp-stellar-modern",
+      "workspaceId": "ws-stellar",
+      "name": "Modern Slate Dynamic Template",
+      "layout": "landscape",
+      "backgroundColor": "#F8FAFC",
+      "borderColor": "#0F172A",
+      "borderWidth": 8,
+      "showSeal": true,
+      "sealType": "stellar",
+      "showQrCode": true,
+      "qrCodeX": 88,
+      "qrCodeY": 82,
+      "logoX": 12,
+      "logoY": 12,
+      "logoWidth": 100,
+      "signatureX": 50,
+      "signatureY": 76,
+      "signatureWidth": 110,
+      "signatoryName": "Prof. Clara Sterling",
+      "signatoryTitle": "Chancellor, Stellar Academy",
+      "textElements": [
+        {
+          "id": "s1",
+          "text": "CREDENTIAL OF RECOGNITION",
+          "fontSize": 26,
+          "fontFamily": "Space Grotesk",
+          "fontWeight": "bold",
+          "color": "#0F172A",
+          "xPercent": 50,
+          "yPercent": 25,
+          "align": "center"
+        },
+        {
+          "id": "s2",
+          "text": "Stellar Academy certifies that",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "normal",
+          "color": "#475569",
+          "xPercent": 50,
+          "yPercent": 36,
+          "align": "center"
+        },
+        {
+          "id": "s3",
+          "text": "{{name}}",
+          "fontSize": 36,
+          "fontFamily": "Space Grotesk",
+          "fontWeight": "bold",
+          "color": "#ec4899",
+          "xPercent": 50,
+          "yPercent": 47,
+          "align": "center",
+          "isPlaceholder": true
+        },
+        {
+          "id": "s4",
+          "text": "has fulfilled all intensive curriculum modules for",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "normal",
+          "color": "#475569",
+          "xPercent": 50,
+          "yPercent": 56,
+          "align": "center"
+        },
+        {
+          "id": "s5",
+          "text": "{{program}}",
+          "fontSize": 22,
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": "bold",
+          "color": "#0F172A",
+          "xPercent": 50,
+          "yPercent": 65,
+          "align": "center",
+          "isPlaceholder": true
+        },
+        {
+          "id": "s6",
+          "text": "Date: {{date}}",
+          "fontSize": 11,
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": "normal",
+          "color": "#475569",
+          "xPercent": 12,
+          "yPercent": 88,
+          "align": "left"
+        },
+        {
+          "id": "s7",
+          "text": "Trust Code: {{id}}",
+          "fontSize": 11,
+          "fontFamily": "JetBrains Mono",
+          "fontWeight": "normal",
+          "color": "#475569",
+          "xPercent": 50,
+          "yPercent": 88,
+          "align": "center"
+        }
+      ]
+    },
+    {
+      "id": "temp-sl3kdcj",
+      "workspaceId": "ws-e20cwn8",
+      "name": "New Custom Workspace Template",
+      "layout": "landscape",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#1a73e8",
+      "borderWidth": 6,
+      "showSeal": true,
+      "sealType": "classic",
+      "showQrCode": true,
+      "qrCodeX": 10,
+      "qrCodeY": 85,
+      "logoX": 50,
+      "logoY": 10,
+      "logoWidth": 100,
+      "signatureX": 50,
+      "signatureY": 75,
+      "signatureWidth": 90,
+      "signatoryName": "Jane Doe",
+      "signatoryTitle": "Chancellor, Education Unit",
+      "textElements": [
+        {
+          "id": "et1",
+          "text": "CERTIFICATE OF MASTERY",
+          "fontSize": 24,
+          "fontFamily": "Space Grotesk",
+          "fontWeight": "bold",
+          "color": "#0F172A",
+          "xPercent": 50,
+          "yPercent": 25,
+          "align": "center"
+        },
+        {
+          "id": "et2",
+          "text": "Granted proud recipient",
+          "fontSize": 11,
+          "fontFamily": "Inter",
+          "fontWeight": "normal",
+          "color": "#64748B",
+          "xPercent": 50,
+          "yPercent": 36,
+          "align": "center"
+        },
+        {
+          "id": "et3",
+          "text": "{{name}}",
+          "fontSize": 34,
+          "fontFamily": "Playfair Display",
+          "fontWeight": "bold",
+          "color": "#c4215a",
+          "xPercent": 50,
+          "yPercent": 48,
+          "align": "center",
+          "isPlaceholder": true
+        },
+        {
+          "id": "et4",
+          "text": "for dedicated program participation in",
+          "fontSize": 11,
+          "fontFamily": "Inter",
+          "fontWeight": "normal",
+          "color": "#64748B",
+          "xPercent": 50,
+          "yPercent": 58,
+          "align": "center"
+        },
+        {
+          "id": "et5",
+          "text": "{{program}}",
+          "fontSize": 18,
+          "fontFamily": "Space Grotesk",
+          "fontWeight": "bold",
+          "color": "#0F172A",
+          "xPercent": 50,
+          "yPercent": 66,
+          "align": "center",
+          "isPlaceholder": true
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "prg-gcp-architect",
+      "workspaceId": "ws-google-infra",
+      "name": "Certified Professional Cloud Architect training",
+      "description": "Advanced 12-week design boot camp on building secure, resilient Cloud Architectures.",
+      "templateId": "temp-google-classic",
+      "issueDate": "2026-06-12",
+      "status": "active",
+      "createdTime": "2026-05-01T10:00:00Z",
+      "recipientFields": [
+        "Score",
+        "Cohort",
+        "Instructors"
+      ]
+    },
+    {
+      "id": "prg-ai-agents",
+      "workspaceId": "ws-google-infra",
+      "name": "Gemini Developer Mastery Program",
+      "description": "Practical training on Agentic Systems, Tool Function-calling, and reasoning parameters using Gemini SDK.",
+      "templateId": "temp-google-classic",
+      "issueDate": "2026-06-15",
+      "status": "active",
+      "createdTime": "2026-05-18T14:20:00Z",
+      "recipientFields": [
+        "Project Link",
+        "Tier"
+      ]
+    },
+    {
+      "id": "prg-stellar-nextjs",
+      "workspaceId": "ws-stellar",
+      "name": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "description": "Intensive React-centric program detailing Server Components, suspense-bound layouts, and custom hydration engines.",
+      "templateId": "temp-stellar-modern",
+      "issueDate": "2026-05-20",
+      "status": "active",
+      "createdTime": "2026-04-10T11:00:00Z",
+      "recipientFields": [
+        "GPA",
+        "Final Project Name"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "CERT-2026-1000",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Alex Rivera 100",
+      "recipientEmail": "alex.rivera.100@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_0_8fa8fd28_CERT-2026-1000",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to alex.rivera.100@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1001",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Jordan Vance 101",
+      "recipientEmail": "jordan.vance.101@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_12347_8fa8fd28_CERT-2026-1001",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to jordan.vance.101@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1002",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Sofia Chen 102",
+      "recipientEmail": "sofia.chen.102@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_24694_8fa8fd28_CERT-2026-1002",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sofia.chen.102@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1003",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Marcus Vance 103",
+      "recipientEmail": "marcus.vance.103@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_37041_8fa8fd28_CERT-2026-1003",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to marcus.vance.103@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1004",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Keiko Tanaka 104",
+      "recipientEmail": "keiko.tanaka.104@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_49388_8fa8fd28_CERT-2026-1004",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to keiko.tanaka.104@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1005",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "David Adebayo 105",
+      "recipientEmail": "david.adebayo.105@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_61735_8fa8fd28_CERT-2026-1005",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to david.adebayo.105@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1006",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Elena Rostova 106",
+      "recipientEmail": "elena.rostova.106@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_74082_8fa8fd28_CERT-2026-1006",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to elena.rostova.106@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1007",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Siddharth Iyer 107",
+      "recipientEmail": "siddharth.iyer.107@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_86429_8fa8fd28_CERT-2026-1007",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to siddharth.iyer.107@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1008",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Liam Gallagher 108",
+      "recipientEmail": "liam.gallagher.108@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_98776_8fa8fd28_CERT-2026-1008",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to liam.gallagher.108@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1009",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Chloe Dubois 109",
+      "recipientEmail": "chloe.dubois.109@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_111123_8fa8fd28_CERT-2026-1009",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to chloe.dubois.109@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1010",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Amara Diallo 110",
+      "recipientEmail": "amara.diallo.110@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_123470_8fa8fd28_CERT-2026-1010",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to amara.diallo.110@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1011",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Yuki Sato 111",
+      "recipientEmail": "yuki.sato.111@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_135817_8fa8fd28_CERT-2026-1011",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to yuki.sato.111@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1012",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Mateo Hernandez 112",
+      "recipientEmail": "mateo.hernandez.112@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_148164_8fa8fd28_CERT-2026-1012",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to mateo.hernandez.112@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1013",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Zara Phillips 113",
+      "recipientEmail": "zara.phillips.113@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_160511_8fa8fd28_CERT-2026-1013",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zara.phillips.113@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1014",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Gabriel Costa 114",
+      "recipientEmail": "gabriel.costa.114@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "revoked",
+      "revocationReason": "Academic integrity flag on final assessment review",
+      "securityHash": "sha256:0edf88cf_172858_8fa8fd28_CERT-2026-1014",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to gabriel.costa.114@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-14T14:22:00Z",
+          "event": "REVOKED",
+          "performedBy": "Lead Compliance Officer",
+          "details": "Status altered to REVOKED. Reason: Academic integrity flag on final assessment review"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1015",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Nikolai Ivanov 115",
+      "recipientEmail": "nikolai.ivanov.115@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_185205_8fa8fd28_CERT-2026-1015",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to nikolai.ivanov.115@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1016",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Sophia Loren 116",
+      "recipientEmail": "sophia.loren.116@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_197552_8fa8fd28_CERT-2026-1016",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sophia.loren.116@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1017",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Lucas Mueller 117",
+      "recipientEmail": "lucas.mueller.117@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_209899_8fa8fd28_CERT-2026-1017",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to lucas.mueller.117@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1018",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Zoe Jenkins 118",
+      "recipientEmail": "zoe.jenkins.118@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_222246_8fa8fd28_CERT-2026-1018",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zoe.jenkins.118@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1019",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Tariq Al-Mansoor 119",
+      "recipientEmail": "tariq.al-mansoor.119@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_234593_8fa8fd28_CERT-2026-1019",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to tariq.al-mansoor.119@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1020",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Fatima Higgins 120",
+      "recipientEmail": "fatima.higgins.120@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_246940_8fa8fd28_CERT-2026-1020",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to fatima.higgins.120@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1021",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Oliver Twist 121",
+      "recipientEmail": "oliver.twist.121@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_259287_8fa8fd28_CERT-2026-1021",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to oliver.twist.121@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1022",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Isabella Swan 122",
+      "recipientEmail": "isabella.swan.122@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_271634_8fa8fd28_CERT-2026-1022",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to isabella.swan.122@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1023",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Ethan Hunt 123",
+      "recipientEmail": "ethan.hunt.123@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_283981_8fa8fd28_CERT-2026-1023",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to ethan.hunt.123@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1024",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Emma Watson 124",
+      "recipientEmail": "emma.watson.124@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_296328_8fa8fd28_CERT-2026-1024",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to emma.watson.124@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1025",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Alex Rivera 125",
+      "recipientEmail": "alex.rivera.125@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_308675_8fa8fd28_CERT-2026-1025",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to alex.rivera.125@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1026",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Jordan Vance 126",
+      "recipientEmail": "jordan.vance.126@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_321022_8fa8fd28_CERT-2026-1026",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to jordan.vance.126@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1027",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Sofia Chen 127",
+      "recipientEmail": "sofia.chen.127@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_333369_8fa8fd28_CERT-2026-1027",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sofia.chen.127@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1028",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Marcus Vance 128",
+      "recipientEmail": "marcus.vance.128@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_345716_8fa8fd28_CERT-2026-1028",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to marcus.vance.128@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1029",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Keiko Tanaka 129",
+      "recipientEmail": "keiko.tanaka.129@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_358063_8fa8fd28_CERT-2026-1029",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to keiko.tanaka.129@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1030",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "David Adebayo 130",
+      "recipientEmail": "david.adebayo.130@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_370410_8fa8fd28_CERT-2026-1030",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to david.adebayo.130@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1031",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Elena Rostova 131",
+      "recipientEmail": "elena.rostova.131@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_382757_8fa8fd28_CERT-2026-1031",
+      "viewCount": 4,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to elena.rostova.131@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1032",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Siddharth Iyer 132",
+      "recipientEmail": "siddharth.iyer.132@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_395104_8fa8fd28_CERT-2026-1032",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to siddharth.iyer.132@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1033",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Liam Gallagher 133",
+      "recipientEmail": "liam.gallagher.133@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_407451_8fa8fd28_CERT-2026-1033",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to liam.gallagher.133@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1034",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Chloe Dubois 134",
+      "recipientEmail": "chloe.dubois.134@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_419798_8fa8fd28_CERT-2026-1034",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to chloe.dubois.134@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1035",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Amara Diallo 135",
+      "recipientEmail": "amara.diallo.135@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_432145_8fa8fd28_CERT-2026-1035",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to amara.diallo.135@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1036",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Yuki Sato 136",
+      "recipientEmail": "yuki.sato.136@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_444492_8fa8fd28_CERT-2026-1036",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to yuki.sato.136@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1037",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Mateo Hernandez 137",
+      "recipientEmail": "mateo.hernandez.137@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_456839_8fa8fd28_CERT-2026-1037",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to mateo.hernandez.137@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1038",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Zara Phillips 138",
+      "recipientEmail": "zara.phillips.138@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_469186_8fa8fd28_CERT-2026-1038",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zara.phillips.138@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1039",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Gabriel Costa 139",
+      "recipientEmail": "gabriel.costa.139@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_481533_8fa8fd28_CERT-2026-1039",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to gabriel.costa.139@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1040",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Nikolai Ivanov 140",
+      "recipientEmail": "nikolai.ivanov.140@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_493880_8fa8fd28_CERT-2026-1040",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to nikolai.ivanov.140@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1041",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Sophia Loren 141",
+      "recipientEmail": "sophia.loren.141@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_506227_8fa8fd28_CERT-2026-1041",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sophia.loren.141@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1042",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Lucas Mueller 142",
+      "recipientEmail": "lucas.mueller.142@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_518574_8fa8fd28_CERT-2026-1042",
+      "viewCount": 4,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to lucas.mueller.142@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1043",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Zoe Jenkins 143",
+      "recipientEmail": "zoe.jenkins.143@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_530921_8fa8fd28_CERT-2026-1043",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zoe.jenkins.143@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1044",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Tariq Al-Mansoor 144",
+      "recipientEmail": "tariq.al-mansoor.144@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_543268_8fa8fd28_CERT-2026-1044",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to tariq.al-mansoor.144@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1045",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Fatima Higgins 145",
+      "recipientEmail": "fatima.higgins.145@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "expired",
+      "securityHash": "sha256:0edf88cf_555615_8fa8fd28_CERT-2026-1045",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to fatima.higgins.145@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1046",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Oliver Twist 146",
+      "recipientEmail": "oliver.twist.146@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_567962_8fa8fd28_CERT-2026-1046",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to oliver.twist.146@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1047",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Isabella Swan 147",
+      "recipientEmail": "isabella.swan.147@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_580309_8fa8fd28_CERT-2026-1047",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to isabella.swan.147@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1048",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Ethan Hunt 148",
+      "recipientEmail": "ethan.hunt.148@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_592656_8fa8fd28_CERT-2026-1048",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to ethan.hunt.148@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1049",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Emma Watson 149",
+      "recipientEmail": "emma.watson.149@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_605003_8fa8fd28_CERT-2026-1049",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to emma.watson.149@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1050",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Alex Rivera 150",
+      "recipientEmail": "alex.rivera.150@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_617350_8fa8fd28_CERT-2026-1050",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to alex.rivera.150@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1051",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Jordan Vance 151",
+      "recipientEmail": "jordan.vance.151@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_629697_8fa8fd28_CERT-2026-1051",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to jordan.vance.151@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1052",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Sofia Chen 152",
+      "recipientEmail": "sofia.chen.152@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_642044_8fa8fd28_CERT-2026-1052",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sofia.chen.152@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1053",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Marcus Vance 153",
+      "recipientEmail": "marcus.vance.153@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_654391_8fa8fd28_CERT-2026-1053",
+      "viewCount": 4,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to marcus.vance.153@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1054",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Keiko Tanaka 154",
+      "recipientEmail": "keiko.tanaka.154@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_666738_8fa8fd28_CERT-2026-1054",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to keiko.tanaka.154@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1055",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "David Adebayo 155",
+      "recipientEmail": "david.adebayo.155@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_679085_8fa8fd28_CERT-2026-1055",
+      "viewCount": 4,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to david.adebayo.155@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1056",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Elena Rostova 156",
+      "recipientEmail": "elena.rostova.156@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_691432_8fa8fd28_CERT-2026-1056",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to elena.rostova.156@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1057",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Siddharth Iyer 157",
+      "recipientEmail": "siddharth.iyer.157@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_703779_8fa8fd28_CERT-2026-1057",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to siddharth.iyer.157@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1058",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Liam Gallagher 158",
+      "recipientEmail": "liam.gallagher.158@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_716126_8fa8fd28_CERT-2026-1058",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to liam.gallagher.158@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1059",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Chloe Dubois 159",
+      "recipientEmail": "chloe.dubois.159@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_728473_8fa8fd28_CERT-2026-1059",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to chloe.dubois.159@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1060",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Amara Diallo 160",
+      "recipientEmail": "amara.diallo.160@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_740820_8fa8fd28_CERT-2026-1060",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to amara.diallo.160@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1061",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Yuki Sato 161",
+      "recipientEmail": "yuki.sato.161@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_753167_8fa8fd28_CERT-2026-1061",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to yuki.sato.161@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1062",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Mateo Hernandez 162",
+      "recipientEmail": "mateo.hernandez.162@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_765514_8fa8fd28_CERT-2026-1062",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to mateo.hernandez.162@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1063",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Zara Phillips 163",
+      "recipientEmail": "zara.phillips.163@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_777861_8fa8fd28_CERT-2026-1063",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zara.phillips.163@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1064",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Gabriel Costa 164",
+      "recipientEmail": "gabriel.costa.164@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_790208_8fa8fd28_CERT-2026-1064",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to gabriel.costa.164@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1065",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Nikolai Ivanov 165",
+      "recipientEmail": "nikolai.ivanov.165@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_802555_8fa8fd28_CERT-2026-1065",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to nikolai.ivanov.165@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1066",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Sophia Loren 166",
+      "recipientEmail": "sophia.loren.166@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_814902_8fa8fd28_CERT-2026-1066",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sophia.loren.166@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1067",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Lucas Mueller 167",
+      "recipientEmail": "lucas.mueller.167@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_827249_8fa8fd28_CERT-2026-1067",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to lucas.mueller.167@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1068",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Zoe Jenkins 168",
+      "recipientEmail": "zoe.jenkins.168@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_839596_8fa8fd28_CERT-2026-1068",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zoe.jenkins.168@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1069",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Tariq Al-Mansoor 169",
+      "recipientEmail": "tariq.al-mansoor.169@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_851943_8fa8fd28_CERT-2026-1069",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to tariq.al-mansoor.169@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1070",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Fatima Higgins 170",
+      "recipientEmail": "fatima.higgins.170@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_864290_8fa8fd28_CERT-2026-1070",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to fatima.higgins.170@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1071",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Oliver Twist 171",
+      "recipientEmail": "oliver.twist.171@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_876637_8fa8fd28_CERT-2026-1071",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to oliver.twist.171@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1072",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Isabella Swan 172",
+      "recipientEmail": "isabella.swan.172@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_888984_8fa8fd28_CERT-2026-1072",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to isabella.swan.172@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1073",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Ethan Hunt 173",
+      "recipientEmail": "ethan.hunt.173@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_901331_8fa8fd28_CERT-2026-1073",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to ethan.hunt.173@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1074",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Emma Watson 174",
+      "recipientEmail": "emma.watson.174@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_913678_8fa8fd28_CERT-2026-1074",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to emma.watson.174@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1075",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Alex Rivera 175",
+      "recipientEmail": "alex.rivera.175@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_926025_8fa8fd28_CERT-2026-1075",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to alex.rivera.175@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1076",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Jordan Vance 176",
+      "recipientEmail": "jordan.vance.176@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_938372_8fa8fd28_CERT-2026-1076",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to jordan.vance.176@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1077",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Sofia Chen 177",
+      "recipientEmail": "sofia.chen.177@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_950719_8fa8fd28_CERT-2026-1077",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sofia.chen.177@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1078",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Marcus Vance 178",
+      "recipientEmail": "marcus.vance.178@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_963066_8fa8fd28_CERT-2026-1078",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to marcus.vance.178@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1079",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Keiko Tanaka 179",
+      "recipientEmail": "keiko.tanaka.179@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_975413_8fa8fd28_CERT-2026-1079",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to keiko.tanaka.179@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1080",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "David Adebayo 180",
+      "recipientEmail": "david.adebayo.180@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_987760_8fa8fd28_CERT-2026-1080",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to david.adebayo.180@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1081",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Elena Rostova 181",
+      "recipientEmail": "elena.rostova.181@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1000107_8fa8fd28_CERT-2026-1081",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to elena.rostova.181@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1082",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Siddharth Iyer 182",
+      "recipientEmail": "siddharth.iyer.182@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1012454_8fa8fd28_CERT-2026-1082",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to siddharth.iyer.182@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1083",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Liam Gallagher 183",
+      "recipientEmail": "liam.gallagher.183@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1024801_8fa8fd28_CERT-2026-1083",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to liam.gallagher.183@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1084",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Chloe Dubois 184",
+      "recipientEmail": "chloe.dubois.184@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1037148_8fa8fd28_CERT-2026-1084",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to chloe.dubois.184@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1085",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Amara Diallo 185",
+      "recipientEmail": "amara.diallo.185@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1049495_8fa8fd28_CERT-2026-1085",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to amara.diallo.185@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1086",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Yuki Sato 186",
+      "recipientEmail": "yuki.sato.186@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1061842_8fa8fd28_CERT-2026-1086",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to yuki.sato.186@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1087",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Mateo Hernandez 187",
+      "recipientEmail": "mateo.hernandez.187@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1074189_8fa8fd28_CERT-2026-1087",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to mateo.hernandez.187@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1088",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Zara Phillips 188",
+      "recipientEmail": "zara.phillips.188@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1086536_8fa8fd28_CERT-2026-1088",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zara.phillips.188@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1089",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Gabriel Costa 189",
+      "recipientEmail": "gabriel.costa.189@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1098883_8fa8fd28_CERT-2026-1089",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to gabriel.costa.189@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1090",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Nikolai Ivanov 190",
+      "recipientEmail": "nikolai.ivanov.190@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1111230_8fa8fd28_CERT-2026-1090",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to nikolai.ivanov.190@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1091",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Sophia Loren 191",
+      "recipientEmail": "sophia.loren.191@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1123577_8fa8fd28_CERT-2026-1091",
+      "viewCount": 4,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sophia.loren.191@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1092",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Lucas Mueller 192",
+      "recipientEmail": "lucas.mueller.192@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1135924_8fa8fd28_CERT-2026-1092",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to lucas.mueller.192@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1093",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Zoe Jenkins 193",
+      "recipientEmail": "zoe.jenkins.193@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1148271_8fa8fd28_CERT-2026-1093",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zoe.jenkins.193@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1094",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Tariq Al-Mansoor 194",
+      "recipientEmail": "tariq.al-mansoor.194@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1160618_8fa8fd28_CERT-2026-1094",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to tariq.al-mansoor.194@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1095",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Fatima Higgins 195",
+      "recipientEmail": "fatima.higgins.195@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1172965_8fa8fd28_CERT-2026-1095",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to fatima.higgins.195@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1096",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Oliver Twist 196",
+      "recipientEmail": "oliver.twist.196@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1185312_8fa8fd28_CERT-2026-1096",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to oliver.twist.196@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1097",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Isabella Swan 197",
+      "recipientEmail": "isabella.swan.197@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1197659_8fa8fd28_CERT-2026-1097",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to isabella.swan.197@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1098",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Ethan Hunt 198",
+      "recipientEmail": "ethan.hunt.198@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1210006_8fa8fd28_CERT-2026-1098",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to ethan.hunt.198@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1099",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Emma Watson 199",
+      "recipientEmail": "emma.watson.199@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1222353_8fa8fd28_CERT-2026-1099",
+      "viewCount": 2,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to emma.watson.199@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1100",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Alex Rivera 200",
+      "recipientEmail": "alex.rivera.200@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1234700_8fa8fd28_CERT-2026-1100",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to alex.rivera.200@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1101",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Jordan Vance 201",
+      "recipientEmail": "jordan.vance.201@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1247047_8fa8fd28_CERT-2026-1101",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to jordan.vance.201@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1102",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Sofia Chen 202",
+      "recipientEmail": "sofia.chen.202@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1259394_8fa8fd28_CERT-2026-1102",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sofia.chen.202@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1103",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Marcus Vance 203",
+      "recipientEmail": "marcus.vance.203@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1271741_8fa8fd28_CERT-2026-1103",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to marcus.vance.203@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1104",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Keiko Tanaka 204",
+      "recipientEmail": "keiko.tanaka.204@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1284088_8fa8fd28_CERT-2026-1104",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to keiko.tanaka.204@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1105",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "David Adebayo 205",
+      "recipientEmail": "david.adebayo.205@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1296435_8fa8fd28_CERT-2026-1105",
+      "viewCount": 3,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to david.adebayo.205@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1106",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Elena Rostova 206",
+      "recipientEmail": "elena.rostova.206@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1308782_8fa8fd28_CERT-2026-1106",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to elena.rostova.206@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1107",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Siddharth Iyer 207",
+      "recipientEmail": "siddharth.iyer.207@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1321129_8fa8fd28_CERT-2026-1107",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to siddharth.iyer.207@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1108",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Liam Gallagher 208",
+      "recipientEmail": "liam.gallagher.208@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1333476_8fa8fd28_CERT-2026-1108",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to liam.gallagher.208@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1109",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Chloe Dubois 209",
+      "recipientEmail": "chloe.dubois.209@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1345823_8fa8fd28_CERT-2026-1109",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to chloe.dubois.209@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1110",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Amara Diallo 210",
+      "recipientEmail": "amara.diallo.210@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1358170_8fa8fd28_CERT-2026-1110",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to amara.diallo.210@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1111",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Yuki Sato 211",
+      "recipientEmail": "yuki.sato.211@trustops-mail.com",
+      "customFields": {
+        "Score": "92%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1370517_8fa8fd28_CERT-2026-1111",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to yuki.sato.211@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1112",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Mateo Hernandez 212",
+      "recipientEmail": "mateo.hernandez.212@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1382864_8fa8fd28_CERT-2026-1112",
+      "viewCount": 3,
+      "downloadCount": 0,
+      "shareCount": 1,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to mateo.hernandez.212@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1113",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Zara Phillips 213",
+      "recipientEmail": "zara.phillips.213@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1395211_8fa8fd28_CERT-2026-1113",
+      "viewCount": 4,
+      "downloadCount": 1,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zara.phillips.213@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1114",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Gabriel Costa 214",
+      "recipientEmail": "gabriel.costa.214@trustops-mail.com",
+      "customFields": {
+        "Score": "89%",
+        "Cohort": "C-2026a",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1407558_8fa8fd28_CERT-2026-1114",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to gabriel.costa.214@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1115",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Nikolai Ivanov 215",
+      "recipientEmail": "nikolai.ivanov.215@trustops-mail.com",
+      "customFields": {
+        "Score": "96%",
+        "Cohort": "C-2026b",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1419905_8fa8fd28_CERT-2026-1115",
+      "viewCount": 4,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to nikolai.ivanov.215@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1116",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Sophia Loren 216",
+      "recipientEmail": "sophia.loren.216@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1432252_8fa8fd28_CERT-2026-1116",
+      "viewCount": 1,
+      "downloadCount": 1,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to sophia.loren.216@trustops-mail.com"
+        },
+        {
+          "timestamp": "2026-06-15T15:30:00Z",
+          "event": "VERIFIED",
+          "performedBy": "Verifier (Public Integration)",
+          "details": "Permanent ledger lookup match. Cryptographic security hash verified successfully."
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1117",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-ai-agents",
+      "programName": "Gemini Developer Mastery Program",
+      "recipientName": "Lucas Mueller 217",
+      "recipientEmail": "lucas.mueller.217@trustops-mail.com",
+      "customFields": {
+        "Score": "98%",
+        "Cohort": "C-2026a",
+        "Instructors": "Dr. Arthur Pendelton"
+      },
+      "issueDate": "2026-06-15",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1444599_8fa8fd28_CERT-2026-1117",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 2,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to lucas.mueller.217@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1118",
+      "workspaceId": "ws-google-infra",
+      "programId": "prg-gcp-architect",
+      "programName": "Certified Professional Cloud Architect training",
+      "recipientName": "Zoe Jenkins 218",
+      "recipientEmail": "zoe.jenkins.218@trustops-mail.com",
+      "customFields": {
+        "Score": "100%",
+        "Cohort": "C-2026b",
+        "Instructors": "Prof. Helen Clark"
+      },
+      "issueDate": "2026-06-12",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1456946_8fa8fd28_CERT-2026-1118",
+      "viewCount": 1,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to zoe.jenkins.218@trustops-mail.com"
+        }
+      ]
+    },
+    {
+      "id": "CERT-2026-1119",
+      "workspaceId": "ws-stellar",
+      "programId": "prg-stellar-nextjs",
+      "programName": "Advanced Full-Stack Engineering with Next.js & React 19",
+      "recipientName": "Tariq Al-Mansoor 219",
+      "recipientEmail": "tariq.al-mansoor.219@trustops-mail.com",
+      "customFields": {
+        "GPA": "3.9",
+        "Final Project Name": "Micro-Kernel OS"
+      },
+      "issueDate": "2026-05-20",
+      "status": "valid",
+      "securityHash": "sha256:0edf88cf_1469293_8fa8fd28_CERT-2026-1119",
+      "viewCount": 2,
+      "downloadCount": 0,
+      "shareCount": 0,
+      "lastViewed": "2026-06-16T18:43:00Z",
+      "auditTrail": [
+        {
+          "timestamp": "2026-06-12T10:00:00Z",
+          "event": "CREATED",
+          "performedBy": "System Engine",
+          "details": "Authorized Workspace batch issuance initialized."
+        },
+        {
+          "timestamp": "2026-06-12T10:01:15Z",
+          "event": "ISSUED",
+          "performedBy": "Workspace Admin",
+          "details": "Dispatched verification email secure token to tariq.al-mansoor.219@trustops-mail.com"
+        }
+      ]
+    }
+  ]
+}
