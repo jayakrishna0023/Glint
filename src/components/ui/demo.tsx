@@ -115,10 +115,6 @@ export function HeroScrollDemo() {
                     <p className="text-[4px] text-slate-400">Authority Signatory</p>
                   </div>
                   <div className="flex items-center gap-1">
-                    <div className="text-right">
-                      <p className="text-[5px] text-emerald-600 font-bold">● VERIFIED</p>
-                      <p className="text-[4px] text-slate-300">sha256:8af19...</p>
-                    </div>
                     <div className="w-5 h-5 bg-white border border-slate-200 rounded flex items-center justify-center p-0.5">
                       <img 
                         src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://credentials.os/%23preview&color=0f172a" 

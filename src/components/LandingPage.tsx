@@ -152,8 +152,8 @@ export function LandingPage({ onStartFree, onViewSample, onSelectWorkspace }: La
         className="absolute top-[25%] left-[-15%] w-[500px] h-[500px] rounded-full bg-gradient-to-br from-blue-500/10 to-emerald-500/10 blur-3xl pointer-events-none z-0 animate-glow"
       />
 
-      {/* Premium Sticky Navigation */}
-      <header className="sticky top-0 z-50 bg-[#F8F9FA]/80 backdrop-blur-lg border-b border-[#E9ECEF]/50 h-16 flex items-center justify-between px-6 lg:px-16 transition-all duration-300">
+      {/* Premium Sticky Navigation with Glassmorphism */}
+      <header className="sticky top-0 z-50 bg-white/45 backdrop-blur-xl border-b border-white/30 h-16 flex items-center justify-between px-6 lg:px-16 transition-all duration-300 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
         <div className="flex items-center gap-2.5">
           <svg className="w-8 h-8 shrink-0 hover:scale-105 transition-transform duration-300" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M23 16C23 19.866 19.866 23 16 23C12.134 23 9 19.866 9 16C9 12.134 12.134 9 16 9C18.6 9 20.9 10.4 22.1 12.5" stroke="#0F172A" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -162,12 +162,6 @@ export function LandingPage({ onStartFree, onViewSample, onSelectWorkspace }: La
           </svg>
           <span className="font-display font-bold tracking-tight text-slate-950 text-base">GLINT</span>
         </div>
-
-        <nav className="hidden md:flex items-center gap-8 text-xs font-medium text-slate-500">
-          <a href="#features" className="hover:text-slate-950 transition-colors relative after:absolute after:bottom-[-20px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-950 hover:after:w-full after:transition-all">Infrastructure</a>
-          <a href="#preview" className="hover:text-slate-950 transition-colors relative after:absolute after:bottom-[-20px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-950 hover:after:w-full after:transition-all">Instant Preview</a>
-          <a href="#pricing" className="hover:text-slate-950 transition-colors relative after:absolute after:bottom-[-20px] after:left-0 after:w-0 after:h-[2px] after:bg-slate-950 hover:after:w-full after:transition-all">Pricing Levels</a>
-        </nav>
 
         <div className="flex items-center gap-3">
           <button 
@@ -223,22 +217,6 @@ export function LandingPage({ onStartFree, onViewSample, onSelectWorkspace }: La
               <Award className="w-4 h-4 text-amber-500 group-hover:scale-110 transition-transform" />
               Verify Sample Credential
             </button>
-          </div>
-
-          {/* Live Platform Audits Status Indicators */}
-          <div className="flex flex-wrap gap-x-6 gap-y-2 text-[10px] font-mono text-slate-400">
-            <span className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-              Platform Status: Active
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
-              Signature Engine: Live
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
-              Neon Sync: Connected
-            </span>
           </div>
 
           {/* Real Customer Trust Logos */}
@@ -351,10 +329,6 @@ export function LandingPage({ onStartFree, onViewSample, onSelectWorkspace }: La
                   <p className="font-sans text-[5px] text-slate-400">Chief Authority Officer</p>
                 </div>
                 <div className="text-right flex items-center gap-1">
-                  <div className="text-right">
-                    <p className="font-mono text-[6px] text-emerald-600 font-bold">● SECURE SEED</p>
-                    <p className="font-mono text-[5px] text-slate-300">sha256:0edf88cf...</p>
-                  </div>
                   <div className="w-6 h-6 bg-white p-0.5 rounded-sm border border-slate-200 shadow-sm flex items-center justify-center">
                     <img 
                       src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://credentials.os/%23preview&color=0f172a" 
